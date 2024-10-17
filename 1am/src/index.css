@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Handjet');
+@import url('https://fonts.googleapis.com/css?family=Fira+Code');
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Fira Code";
+  }
+}
