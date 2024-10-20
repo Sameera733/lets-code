@@ -39,7 +39,7 @@ const Bot = () => {
                     <p class="exe">Explore the <span>1AM</span> way </p>
                     <img src={ext} alt='line' />
                     <p id="le"><span>learn</span></p>
-                    <p id="in">instantly and intractively</p>
+                    <p id="in">instantly and interactively</p>
                     <p id="out">Learn from carefully curated learning path with up-to-date interactive courses, and receive 24x7 AI assistance as you develop your coding skills</p>
                 </div>
                 <div className="js">
