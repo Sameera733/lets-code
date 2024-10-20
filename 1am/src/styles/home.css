@@ -30,11 +30,36 @@ body {
     width: 100%;
 }
 
-h2 {
+.hero {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}
+
+h6 {
+    font: bolder;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.hero p {
     color: #EB6E2B;
     letter-spacing: 1px;
     text-align: center;
     font-family: "Handjet";
-    font-size: 9.5rem;
+    font-size: 150px;
     font-weight: 700;
+    margin-bottom: 0;
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+p {
+
 }
