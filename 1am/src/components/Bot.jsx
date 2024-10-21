@@ -5,10 +5,11 @@ import dot from "../assets/dot.png";
 import ext from "../assets/ext.svg";
 import js from "../assets/js.png";
 import lap from "../assets/lap.svg";
-
-
-
-
+import dev from "../assets/dev.png";
+import Vector from "../assets/Vector.svg";
+import Discord from "../assets/Discord.png"
+import am from "../assets/logo.svg";
+import soon from "../assets/soon.png";
 
 const Bot = () => {
 
@@ -49,8 +50,37 @@ const Bot = () => {
                         <p id="han">hands-on practice</p>
                         <p id='at'>At 1AM, you get to learn by doing. Escape tutorial hell by solving real-world challenges in our interactive labs, all within your browser. </p>
                     </div>
+                    </div>
+                    <div className="cod">
+                    <p class="off">code, build, deploy </p>
+                    <img src={ext} alt='line' />
+                    <p id="of"><span>grow</span></p>
+                    <p id="on">expand your potential</p>
                 </div>
-            </div>
+                <div className="do">
+                <img src={dev} alt='doo' />
+                </div>
+                <div className="da">
+                    <p class="jo">Join the community of developers changing the world  </p>
+                    <p id="joo">Transform the way you learn coding and connect with other like minded developers across the globe</p>
+                    <img src={Vector} alt='Vector' />
+                    <p class="ro">Make something great </p>
+                    <p id="roo">Start a playground, invite your friends and build your projects collaboratively, from anywhere around the globe.</p>
+                    <img src={Discord} alt='Discord' />
+                    <p class="bo">Connect on Discord</p>
+                    <p id="boo">find developers, mentors, and new friends. Attend exclusive events  organized by 1AM and have fun while growing your skills </p>
+               
+              </div>
+                
+              <div className="all">
+                    <p class="cen">start your coding journey </p>
+                    <p id="ce">code, build, deploy</p>
+                    <img src={am}/>
+                    <img src={soon}/>
+                </div>
+
+
+            </div >
         </>
     )
 }
