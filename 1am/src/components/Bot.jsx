@@ -94,16 +94,19 @@ const Bot = () => {
                     </div>
                     <div className="foots">
                     <p class="fly" >Contact</p>
+                    <p  id="lif"></p>
                     <p class="flo">Maaz.codes1@gmail.com</p>
                     <p class="fap">faizafatima742@gmail.com</p>
                     <p class="fp">sameerabegum324@gmil.com</p>
-                    <p class="fan">© Copyright 2024. 1AM. All rights reserved.</p>
-                     </div>
+                    </div>
+                    <div className="fot">
+                    <p id ="fan">© Copyright 2024. 1AM. All rights reserved.</p>
+                    </div>
                     <div className="fonts">
-                    <p class="count">Hyderabad, India </p>
-                    <p class="cou">code, build, deploy</p>
+                    <p id="count">Hyderabad, India </p>
                     <img src={social}/>
                     </div>
+                    
              </div>
             </div >
         </>

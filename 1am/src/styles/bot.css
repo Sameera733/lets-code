@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Handjet');
 @import url('https://fonts.googleapis.com/css?family=Fira+Code');
 @import url('https://fonts.googleapis.com/css2?family=Manrope');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
 .dev {
     display: flex;
     align-items: center;
     justify-items: center;
     justify-content: space-between;
     margin: 10% 3%;
+   
 }
 
 .left {
@@ -55,6 +56,7 @@ span {
     padding-top: 10%;
     padding-bottom: 5%;
     flex-direction: column;
+    
 }
 
 .txt {
@@ -307,6 +309,7 @@ span {
 }
 
 
+
 .foot {
     
     align-items: center;
@@ -335,5 +338,73 @@ span {
    
 }
 
+.foot .fe{
+    color: #000;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 500rem;
+    margin-top: -14.9rem;
+   
+  
+}
 
+
+
+
+.few{
+    color: #000;
+    font-family:Arima  ;
+    font-size: 100px;
+    font-weight: 300rem;
+    text-transform: uppercase;
+    margin-bottom:-40rem ;
+   
+}
+
+.fonts{
+    align-items: center;
+    text-align: end;
+    margin-right: -8.5rem;
+    margin-bottom: 15.5rem;
+    margin-top: -25rem;
+}
+
+.fonts img{
+margin-right: 14rem;
+margin-top: 5rem;
+}
+
+#count{
+    margin-bottom: 15rem;
+}
+
+
+
+.foots .fly, .flo,.fap, .fp, .fan{
+    margin-left: -9rem;
+   
+
+}
+
+.foots {
+ margin-top: 7rem;
+ margin-bottom: 14rem;
+ font-weight: 580;
+ 
+}
+
+#lif{
+    margin-bottom: 3rem;
+    
+}
+
+ .fot{
+   margin-top: 2rem;
+}
+
+#fan{
+    font-weight: 600;
+   margin-top: -2rem;
+    margin-inline-start: -10rem;
+}
 
