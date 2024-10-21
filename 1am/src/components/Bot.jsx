@@ -10,6 +10,10 @@ import Vector from "../assets/Vector.svg";
 import Discord from "../assets/Discord.png"
 import am from "../assets/logo.svg";
 import soon from "../assets/soon.png";
+import horzline from "../assets/horzline.svg";
+import Ellipse from "../assets/Ellipse.svg";
+import social from "../assets/social.svg"
+import Polygon from "../assets/Polygon.svg";
 
 const Bot = () => {
 
@@ -73,13 +77,34 @@ const Bot = () => {
               </div>
                 
               <div className="all">
-                    <p class="cen">start your coding journey </p>
-                    <p id="ce">code, build, deploy</p>
+                    <button>start your coding journey</button>
+                    <p class="ce">code, build, deploy</p>
                     <img src={am}/>
                     <img src={soon}/>
-                </div>
-
-
+             </div>
+             
+             <div className="footer">
+             <div className="foot">
+                    <img src={horzline}/>
+                    <p class="foo">Got a project? Want to collaborate? </p>
+                    <p class="fin">Discuss your project <span><img src={Polygon}/></span></p>
+                    <img src={Ellipse}/>
+                    <p class="fe">Terms & Conditions</p>
+                    <p class="few">let’s work together</p>     
+                    </div>
+                    <div className="foots">
+                    <p class="fly" >Contact</p>
+                    <p class="flo">Maaz.codes1@gmail.com</p>
+                    <p class="fap">faizafatima742@gmail.com</p>
+                    <p class="fp">sameerabegum324@gmil.com</p>
+                    <p class="fan">© Copyright 2024. 1AM. All rights reserved.</p>
+                     </div>
+                    <div className="fonts">
+                    <p class="count">Hyderabad, India </p>
+                    <p class="cou">code, build, deploy</p>
+                    <img src={social}/>
+                    </div>
+             </div>
             </div >
         </>
     )

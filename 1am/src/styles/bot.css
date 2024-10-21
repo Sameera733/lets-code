@@ -227,7 +227,7 @@ span {
     align-items: center;
     flex-direction: column;
     margin: 1rem;
-    
+
 }
 
 
@@ -242,7 +242,7 @@ span {
     margin-bottom: 1rem;
     margin-left: 10rem;
     margin-top: 1rem;
-    
+
 }
 
 #joo,
@@ -258,7 +258,7 @@ span {
     line-height: 2.3rem;
 }
 
- .da img {
+.da img {
     padding: 0%;
     margin: 0;
     margin-left: 10rem;
@@ -266,4 +266,74 @@ span {
     line-height: 2px;
 
 }
+
+.all {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 3rem;
+    margin-top: 4.6rem;
+
+}
+
+.all button {
+    width: 18rem;
+    height: 3rem;
+    text-transform: uppercase;
+    font-family: "Fira Code";
+    font-size: 1rem;
+    background-color: #000;
+    color: #fff;
+    border-radius: 7px;
+    box-shadow:
+        0 0 0 3px #EB6E2B;
+
+}
+
+.ce {
+    color: #8888A5;
+    font-family: "fira-code";
+    font-size: 22px;
+    line-height: 5rem;
+    font-weight: 400;
+
+}
+
+.all img {
+    width: 464px;
+    height: 225px;
+    margin-bottom: -7rem;
+    margin-top: -2rem;
+}
+
+
+.foot {
+    
+    align-items: center;
+    flex-direction: column;
+    margin: -0.5rem;
+    color: #000;
+    text-align: center;
+    font-family: "Fira Code";
+    font-size: 25px;
+    font-weight: 600;
+    
+}
+
+.foo{
+    margin-top: 5rem;
+}
+
+.fin{
+    color: #EC6E2B;
+    text-align: center;
+   font-family: "Fira Code";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 3;
+    margin-top: -2px;
+   
+}
+
+
 
