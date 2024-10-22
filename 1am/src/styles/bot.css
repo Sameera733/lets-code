@@ -3,6 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope');
 @import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+
+
 .dev {
     display: flex;
     align-items: center;
@@ -20,16 +23,28 @@
 .left button {
     width: 15rem;
     height: 3rem;
-    /* padding: 1rem; */
-    align-items: center;
-    font-family: "Fira Code";
+    font-weight: 500;
+    font-style: bolder;
+    font-family: "Shadows Into Light";
     font-size: 2rem;
     background-color: #000;
     color: #fff;
     border-radius: 7px;
     box-shadow:
         0 0 0 3px #EB6E2B;
+        /* margin-bottom: 1rem; */
 }
+
+
+.left img{
+      
+    margin-top: -2rem;
+    margin-bottom: -1rem;
+    width: 3.3rem;
+    height: 3.5rem;
+   
+}
+
 
 span {
     color: #EB6E2B;
@@ -40,11 +55,15 @@ span {
     font-weight: 400;
     font-size: 2rem;
     margin-top: 0;
+   
 
 }
 
 .right {
     margin-left: 2%;
+    margin-right: 6rem;
+   
+    
 }
 
 .alone {
@@ -56,6 +75,7 @@ span {
     padding-top: 10%;
     padding-bottom: 5%;
     flex-direction: column;
+    margin-bottom: -40rem;
     
 }
 
@@ -96,13 +116,36 @@ span {
     line-height: 9rem;
 }
 
-.dot {
-    width: 53rem;
-    height: 39rem;
-    border-radius: 7.6rem;
-    margin-top: 10%;
-    margin-bottom: 10%;
+.temp {
+    position: relative; 
+    display: inline-block; 
 }
+
+.dot {
+    width: 53rem; 
+    height: 39rem; 
+    border-radius: 7.6rem; 
+    margin-top: 10%; 
+    margin-bottom: 10%; 
+    display: block; 
+}
+
+.temp::before {
+    margin-top: 5.3rem;
+    margin-bottom: 9rem;
+    content: ''; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 78.4%; 
+    background: #FF5E0E; 
+    mix-blend-mode: color; 
+    border-radius: 7.6rem; 
+    pointer-events: none; 
+}
+
+
 
 .exp {
     display: flex;
@@ -228,9 +271,27 @@ span {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: 1rem;
-
+    margin: 4rem; 
+    position: relative; 
+   
 }
+
+ 
+
+.overlay-image {
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    height: 100%; 
+    border-radius: 3.67rem; 
+    pointer-events: none; 
+    background: #FF5E0E; 
+    mix-blend-mode: color; 
+    /* border-radius: 7.6rem;  */
+    pointer-events: none; 
+}
+
 
 
 
@@ -282,13 +343,16 @@ span {
     width: 18rem;
     height: 3rem;
     text-transform: uppercase;
-    font-family: "Fira Code";
+    font-style:bold;
+    font-family: "Shadows Into Light";
     font-size: 1rem;
     background-color: #000;
     color: #fff;
     border-radius: 7px;
     box-shadow:
         0 0 0 3px #EB6E2B;
+    letter-spacing: 3px;
+       font-weight: 600;
 
 }
 
@@ -358,14 +422,20 @@ span {
     font-weight: 300rem;
     text-transform: uppercase;
     margin-bottom:-40rem ;
+    margin-top: 3rem;
    
 }
+
+/* p .few{
+    margin: -7rem;
+    margin-top: 3rem;
+} */
 
 .fonts{
     align-items: center;
     text-align: end;
     margin-right: -8.5rem;
-    margin-bottom: 15.5rem;
+    margin-bottom: 0.05px;
     margin-top: -25rem;
 }
 

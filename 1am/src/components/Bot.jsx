@@ -14,6 +14,8 @@ import horzline from "../assets/horzline.svg";
 import Ellipse from "../assets/Ellipse.svg";
 import social from "../assets/social.svg"
 import Polygon from "../assets/Polygon.svg";
+import discordnew from "../assets/Discord New.png";
+import overlay from "../assets/overlay.png";
 
 const Bot = () => {
 
@@ -25,7 +27,7 @@ const Bot = () => {
                     <p>
                         Your go-to platform for mastering code is now in your pocket. With <span> 1AMcreators.com </span>,access world-class chatbot both free and premium, designed to elevate your skills, no matter where you are. Join a global community of passionate learners and start creating with confidence.
                     </p>
-                    <button>Chat Bot</button>
+                    <button >Chat Bot <span> <img src={discordnew} /></span></button>
                 </div>
                 <div className="right">
                     <img src={key} />
@@ -39,6 +41,7 @@ const Bot = () => {
                 </div>
                 <div className="temp">
                 <img className='dot' src={dot} alt='dot'/>
+                
                 </div>
                 <div className="exp">
                     <p class="exe">Explore the <span>1AM</span> way </p>
@@ -63,6 +66,7 @@ const Bot = () => {
                 </div>
                 <div className="do">
                 <img src={dev} alt='doo' />
+                <img src={overlay} alt='overlay' className="overlay-image"/>
                 </div>
                 <div className="da">
                     <p class="jo">Join the community of developers changing the world  </p>
