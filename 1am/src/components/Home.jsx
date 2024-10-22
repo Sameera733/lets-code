@@ -10,13 +10,14 @@ const Home = () => {
     <>
       <div className="container">
         <div className="hero">
-          <p>REVOLUTIONIZE <br/> YOUR CODING WITH</p>
+        <p className="title">REVOLUTIONIZE <br/> YOUR CODING WITH</p>
           <img src={am}/>
+          </div>
           <h6>Scroll to Explore</h6>
           <div className="arrow">
           <img src={line} />
           <img src={arr} />
-          </div>
+      
         </div>
       </div>
     </>

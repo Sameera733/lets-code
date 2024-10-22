@@ -29,6 +29,9 @@ body {
 
 .container {
     width: 100%;
+    align-items: center;
+    justify-items: center;
+    margin-top: 6rem;
 }
 
 .hero {
@@ -42,6 +45,10 @@ h6 {
     font: bolder;
     font-weight: 900;
     text-transform: uppercase;
+    font-size: medium;
+    margin-bottom: 0.4rem;
+    margin-top: 10rem;
+   
 }
 
 .hero p {
@@ -59,8 +66,16 @@ h6 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+   
 }
 
-p {
-
+.hero img{
+    height: 8rem;
 }
+
+.title {
+    font-size: 2rem;
+    line-height: 0.9; 
+    
+  }
+  
