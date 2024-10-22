@@ -1,0 +1,85 @@
+/* Base styles for all devices */
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 0 20px; /* Reduce padding for smaller screens */
+    }
+
+    .nav-links {
+        flex-direction: column; /* Stack links vertically */
+        gap: 20px; /* Adjust gap */
+    }
+
+    .hero p {
+        font-size: 80px; /* Reduce font size */
+    }
+
+    .dev {
+        flex-direction: column; /* Stack items vertically */
+        margin: 5% 1%; /* Adjust margins */
+    }
+
+    .left, .right {
+        width: 100%; /* Full width */
+        height: auto; /* Auto height */
+        margin: 0; /* Remove margins */
+    }
+
+    .all img {
+        width: 100%; /* Full width */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .foot {
+        font-size: 20px; /* Adjust font size */
+    }
+}
+
+/* Tablet styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .navbar {
+        padding: 0 30px; /* Adjust padding */
+    }
+
+    .nav-links {
+        gap: 30px; /* Adjust gap */
+    }
+
+    .hero p {
+        font-size: 100px; /* Adjust font size */
+    }
+
+    .dev {
+        margin: 8% 2%; /* Adjust margins */
+    }
+
+    .left, .right {
+        width: 48%; /* Two columns */
+        height: auto; /* Auto height */
+    }
+}
+
+/* Desktop styles */
+@media (min-width: 1025px) {
+    .navbar {
+        padding: 0 40px; /* Original padding */
+    }
+
+    .hero p {
+        font-size: 150px; /* Original font size */
+    }
+
+    .dev {
+        margin: 10% 3%; /* Original margins */
+    }
+
+    .left, .right {
+        width: 40%; /* Original layout */
+    }
+
+    .all img {
+        width: 464px; /* Original width */
+        height: 225px; /* Original height */
+    }
+}

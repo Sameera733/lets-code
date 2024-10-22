@@ -92,7 +92,9 @@ const Bot = () => {
                     <img src={horzline}/>
                     <p class="foo">Got a project? Want to collaborate? </p>
                     <p class="fin">Discuss your project <span><img src={Polygon}/></span></p>
+                    
                     <img src={Ellipse}/>
+                    
                     <p class="fe">Terms & Conditions</p>
                     <p class="few">let’s work together</p>     
                     </div>

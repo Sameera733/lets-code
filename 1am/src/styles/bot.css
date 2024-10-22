@@ -374,6 +374,8 @@ span {
 
 
 
+
+
 .foot {
     
     align-items: center;
@@ -413,8 +415,6 @@ span {
 }
 
 
-
-
 .few{
     color: #000;
     font-family:Arima  ;
@@ -423,6 +423,9 @@ span {
     text-transform: uppercase;
     margin-bottom:-40rem ;
     margin-top: 3rem;
+    position: relative;
+    top: 50px; /* Adjust to move it down */
+    
    
 }
 
@@ -442,6 +445,7 @@ span {
 .fonts img{
 margin-right: 14rem;
 margin-top: 5rem;
+
 }
 
 #count{
@@ -455,6 +459,8 @@ margin-top: 5rem;
    
 
 }
+
+
 
 .foots {
  margin-top: 7rem;
@@ -478,3 +484,7 @@ margin-top: 5rem;
     margin-inline-start: -10rem;
 }
 
+.foot{
+margin-top:4rem;
+
+}
