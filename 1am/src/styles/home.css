@@ -125,3 +125,53 @@ h6 {
     
   }
   
+ 
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+  .scroll-fade {
+    animation: fadeIn 0.8s ease forwards; /* Animation for title */
+  }
+  
+
+  /* Slide-in from left */
+  @keyframes slideInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .scroll-slide {
+    animation: slideInLeft 0.8s ease forwards; /* Animation for text */
+  }
+  
+
+ 
+  /* Example for the hero image */
+  @keyframes scaleUp {
+    from {
+      transform: scale(0.5);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+  
+  .hero img {
+    animation: scaleUp 1s ease forwards; /* Animation for hero image */
+  }
+  
