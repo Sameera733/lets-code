@@ -488,3 +488,52 @@ margin-top: 5rem;
 margin-top:4rem;
 
 }
+
+
+/* Tooltip Styles */
+.tooltip {
+    position: relative;
+}
+
+.tooltip::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    top: -5px;
+    left: 105%;
+    background: #000;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip:hover::after {
+    opacity: 1;
+}
+
+/* Fade In Animation */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 0.5s forwards; /* Change duration as needed */
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Button Hover Effects */
+.left:hover, .right:hover, .tooltip:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    transition: transform 0.3s ease;
+}
+
+/* Specific Animations for Elements */
+.left, .right, .tooltip {
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Adding opacity transition */
+}
