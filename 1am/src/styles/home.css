@@ -45,6 +45,7 @@ body {
   gap: 70px; 
   list-style-type: none;
   flex-direction: row; 
+  font-family: Fira Code;
 }
 
 .nav-links li a {
