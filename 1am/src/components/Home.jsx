@@ -6,10 +6,7 @@ import line from "../assets/line.svg";
 import { useInView } from 'react-intersection-observer';
 
 const Home = () => {
-  const { ref: titleRef, inView: titleInView } = useInView({ triggerOnce: true });
-  const { ref: textRef, inView: textInView } = useInView({ triggerOnce: true });
-  const { ref: imageRef, inView: imageInView } = useInView({ triggerOnce: true });
-
+  
   return (
     <>
       {/* Navbar */}
@@ -24,22 +21,18 @@ const Home = () => {
 </nav>
       <div className="container">  
         <div className="hero">
-          <p 
-            className={`title ${titleInView ? 'scroll-fade' : ''}`} 
-            ref={titleRef}
-          >
+          
             REVOLUTIONIZE <br/> YOUR CODING WITH
-          </p>
+          
           <img 
             src={am} 
             alt="Hero" 
             ref={imageRef} 
-            className={imageInView ? 'hero-image' : ''} // Add animation class
+            className={imageInView ? 'hero-image' : ''} 
           />
         </div>
         <h6 
-          className={`scroll-slide ${textInView ? 'scroll-fade' : ''}`} 
-          ref={textRef}
+          
         >
           Scroll to Explore
         </h6>

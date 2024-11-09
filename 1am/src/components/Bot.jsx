@@ -20,7 +20,7 @@ import overlay from "../assets/overlay.png";
 const Bot = () => {
     return (
         <div className="bot-container">
-            <div className="dev fade-in">
+            <div className="dev ">
                 <div className="left">
                     <p>
                         Your go-to platform for mastering code is now in your pocket. With <span>1AMcreators.com</span>, access world-class chatbot both free and premium, designed to elevate your skills, no matter where you are. Join a global community of passionate learners and start creating with confidence.
@@ -38,17 +38,17 @@ const Bot = () => {
                         <p className="b">Why Code Alone</p>
                         <p className="small" id="c">Code, Build, Deploy</p>
                     </div>
-                    <div className="temp fade-in">
+                    <div className="temp ">
                         <img className='dot' src={dot} alt='dot' />
                     </div>
-                    <div className="exp fade-in">
+                    <div className="exp ">
                         <p className="exe">Explore the <span>1AM</span> way</p>
                         <img src={ext} alt='line' />
                         <p id="le"><span>Learn</span></p>
                         <p id="in">Instantly and interactively</p>
                         <p id="out">Learn from carefully curated learning paths with up-to-date interactive courses, and receive 24x7 AI assistance as you develop your coding skills.</p>
                     </div>
-                    <div className="js fade-in">
+                    <div className="js ">
                         <img src={js} alt='jsx' />
                         <div className="hands">
                             <img src={lap} alt='Laptop' />
@@ -56,17 +56,17 @@ const Bot = () => {
                             <p id='at'>At 1AM, you get to learn by doing. Escape tutorial hell by solving real-world challenges in our interactive labs, all within your browser.</p>
                         </div>
                     </div>
-                    <div className="cod fade-in">
+                    <div className="cod ">
                         <p className="off">Code, Build, Deploy</p>
                         <img src={ext} alt='line' />
                         <p id="of"><span>Grow</span></p>
                         <p id="on">Expand your potential</p>
                     </div>
-                    <div className="do fade-in">
+                    <div className="do ">
                         <img src={dev} alt='Developer Image' />
                         <img src={overlay} alt='Overlay' className="overlay-image" />
                     </div>
-                    <div className="da fade-in">
+                    <div className="da ">
                         <p className="jo">Join the community of developers changing the world</p>
                         <p id="joo">Transform the way you learn coding and connect with other like-minded developers across the globe.</p>
                         <img src={Vector} alt='Vector Image' />
@@ -84,7 +84,7 @@ const Bot = () => {
                         <img src={soon} alt='Coming Soon' />
                     </div>
 
-                    <div className="footer fade-in">
+                    <div className="footer ">
                         <div className="foot">
                             <img src={horzline} alt='Horizontal Line' />
                             <p className="foo">Got a project? Want to collaborate?</p>
