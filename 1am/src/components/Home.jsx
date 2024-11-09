@@ -3,10 +3,10 @@ import am from "../assets/logo.svg";
 import "../styles/home.css";
 import arr from "../assets/arrow.svg";
 import line from "../assets/line.svg";
-import { useInView } from 'react-intersection-observer';
+
 
 const Home = () => {
-  
+
   return (
     <>
       {/* Navbar */}
@@ -21,14 +21,13 @@ const Home = () => {
 </nav>
       <div className="container">  
         <div className="hero">
-          
+         
             REVOLUTIONIZE <br/> YOUR CODING WITH
           
           <img 
             src={am} 
             alt="Hero" 
-            ref={imageRef} 
-            className={imageInView ? 'hero-image' : ''} 
+            
           />
         </div>
         <h6 

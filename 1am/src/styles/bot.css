@@ -60,10 +60,7 @@ span {
 }
 
 .right {
-    margin-left: 2%;
-    margin-right: 6rem;
    
-    
 }
 
 .alone {
@@ -358,10 +355,11 @@ span {
 
 .ce {
     color: #8888A5;
-    font-family: "fira-code";
-    font-size: 22px;
+    font-family: "Fira Code";
+    font-size: 18px;
     line-height: 5rem;
     font-weight: 400;
+    letter-spacing: 2px;
 
 }
 

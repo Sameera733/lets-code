@@ -45,10 +45,11 @@ body {
   gap: 70px; 
   list-style-type: none;
   flex-direction: row; 
+  font-family: Fira Code;
 }
 
 .nav-links li a {
-  color: #8888A5; 
+  color: #8888A5 ;
   font-size: 22px; 
   font-weight: 400; 
   text-decoration: none;
@@ -98,6 +99,8 @@ h6 {
     font-size: 150px;
     font-weight: 700;
     margin-bottom: 0;
+    line-height: 8.5rem;
+   
 }
 
 .arrow {
