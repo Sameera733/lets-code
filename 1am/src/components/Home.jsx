@@ -1,12 +1,12 @@
 import React from 'react';
-import am from "../assets/logo.svg";
+import am from "../assets/Creators.svg";
 import "../styles/home.css";
 import arr from "../assets/arrow.svg";
 import line from "../assets/line.svg";
 
 
 const Home = () => {
-
+  
   return (
     <>
       {/* Navbar */}
@@ -21,9 +21,11 @@ const Home = () => {
 </nav>
       <div className="container">  
         <div className="hero">
-         
+          <p 
+            
+          >
             REVOLUTIONIZE <br/> YOUR CODING WITH
-          
+          </p>
           <img 
             src={am} 
             alt="Hero" 

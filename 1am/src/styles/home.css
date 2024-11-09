@@ -87,7 +87,7 @@ h6 {
     text-transform: uppercase;
     font-size: medium;
     margin-bottom: 0.4rem;
-    margin-top: 12.4rem;
+    margin-top: 6.4rem;
    
 }
 
@@ -112,7 +112,8 @@ h6 {
 }
 
 .hero img{
-    height: 8rem;
+   margin-top: 2rem;
+    height: 12rem;
 }
 
 .title {
@@ -126,17 +127,3 @@ h6 {
   
 
  
-  /* Example for the hero image */
-  @keyframes scaleUp {
-    from {
-      transform: scale(0.5);
-    }
-    to {
-      transform: scale(1);
-    }
-  }
-  
-  .hero img {
-    animation: scaleUp 1s ease forwards; /* Animation for hero image */
-  }
-  
